@@ -1,0 +1,50 @@
+body {
+  background-color: #1392a8;
+  color: white;
+}
+
+.section {
+  background-color: #1392a8;
+}
+
+.card {
+  background-color: white;
+  color: #333;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px) rotateX(5deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+  height: 400px;
+  background-image: url("/api/placeholder/1200/400");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1faa52;
+  color: white;
+  transform: scale(1.05);
+}

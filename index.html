@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coxinhas Deliciosas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Banner -->
+    <section class="banner hero is-medium">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-1 has-text-white">Coxinhas Deliciosas</h1>
+          <h2 class="subtitle has-text-white">
+            As melhores coxinhas da região!
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards de Produtos -->
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <!-- Bandeja 10 Coxinhas -->
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/coxinha.jpg" alt="Bandeja 10 Coxinhas" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content has-text-centered">
+                  <h3 class="title is-4">Bandeja Pequena</h3>
+                  <p>10 Coxinhas Deliciosas</p>
+                  <p class="price">R$ 15,00</p>
+                  <button
+                    class="button is-fullwidth whatsapp-button mt-4"
+                    onclick="fazerPedido('Bandeja Pequena - 10 Coxinhas', 15.00)"
+                  >
+                    Fazer Pedido via WhatsApp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bandeja 20 Coxinhas -->
+          <div class="column is-5">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/coxinha.jpg" alt="Bandeja 20 Coxinhas" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content has-text-centered">
+                  <h3 class="title is-4">Bandeja Grande</h3>
+                  <p>20 Coxinhas Deliciosas</p>
+                  <p class="price">R$ 30,00</p>
+                  <button
+                    class="button is-fullwidth whatsapp-button mt-4"
+                    onclick="fazerPedido('Bandeja Grande - 20 Coxinhas', 30.00)"
+                  >
+                    Fazer Pedido via WhatsApp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informações de Localização -->
+    <section class="section">
+      <div class="container has-text-centered">
+        <h3 class="title is-4">Nossa Localização</h3>
+        <p>Valença do Minho 501</p>
+        <p>ADSM JARDIM BRASÍLIA (IGREJA AZUL)</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
